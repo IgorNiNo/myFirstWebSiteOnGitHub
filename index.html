@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мое Портфолио</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+            padding: 1rem 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+        }
+
+        .project {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1rem;
+            background-color: #f9f9f9;
+        }
+
+        .project h3 {
+            margin-top: 0;
+        }
+
+        footer {
+            text-align: center;
+            background: #333;
+            color: white;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать в мое портфолио. Меня зовут Игорь</h1>
+    </header>
+
+    <nav>
+        <a href="#about">Обо мне</a>
+        <a href="#projects">Проекты</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+
+    <section id="about">
+        <h2>Обо мне</h2>
+        <p>Привет! Я разработчик веб-приложений с опытом в создании эффективных и креативных решений для клиентов.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Проекты</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Проект 1</h3>
+                <p>Краткое описание проекта и его функций.</p>
+            </div>
+            <div class="project">
+                <h3>Проект 2</h3>
+                <p>Краткое описание проекта и его функций.</p>
+            </div>
+            <div class="project">
+                <h3>Проект 3</h3>
+                <p>Краткое описание проекта и его функций.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Контакты</h2>
+        <p>Вы можете связаться со мной по электронной почте: <a href="mailto:example@example.com">example@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Мое Имя. Все права защищены.</p>
+    </footer>
+</body>
+</html>
